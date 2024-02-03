@@ -7,10 +7,8 @@ while True:
     person_num = int(input())
     if person_num < random_num:
         print("Ваше число меньше того, что загадано")
-        continue
     elif person_num > random_num:
         print("Ваше число больше того, что загадано")
-        continue
-    else:
+    elif person_num == random_num:
         print("Отличная интуиция! Вы угадали число :)")
         break
